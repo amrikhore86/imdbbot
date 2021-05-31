@@ -96,4 +96,4 @@ async def movie(ctx,*,movie:str):
 
 
 
-client.run("NzQzMTU0MjMwMjY4OTE5ODY4.XzQiTw.Jzs92mTd5d3GdsS3yNZkI0thZeQ")
+client.run("NzQzMTU0MjMwMjY4OTE5ODY4.XzQiTw.RXVJWUG8k0OJHRzaTpawbJVtOxs")
