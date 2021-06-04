@@ -64,36 +64,4 @@ async def movie(ctx,*,movie:str):
         await ctx.send(embed=embed)
 
 
-# @client.command()
-# async def cast(ctx,*,cast_name:str):
-#     moviesDB = imdb.IMDb()
-#     cast_search = imdb.search_person(cast_name)
-#     cast_id = cast_search[0].getID()
-#     cast_search = moviesDB.get_person(cast_id)
-    
-#     title = cast_search['name']
-#     dob = cast_search['birth date']
-#     awards = cast_search['awards']
-#     description = cast_search['biography']
-#     age = cast_search['age']
-
-#     embed = discord.Embed(
-#         title = title,
-#         description=description,
-#         colour = discord.Colour.dark_orange()
-#     )
-
-#     embed.set_footer(text='By IMDB')
-#     embed.set_image(url=movie_image)
-#     #embed.set_thumbnail(url=movie_image)
-#     embed.set_author(name='Movie Search',icon_url='https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1200px-IMDB_Logo_2016.svg.png')
-#     embed.add_field(name='Year',value=year , inline=False)
-#     embed.add_field(name='Rating',value=rating , inline=False)
-#     embed.add_field(name='Director',value=movie_directors , inline=False)
-#     embed.add_field(name="Genre",value=movie_genre,inline=False)
-
-#     await ctx.send(embed=embed)
-
-
-
-client.run("NzQzMTU0MjMwMjY4OTE5ODY4.XzQiTw.RXVJWUG8k0OJHRzaTpawbJVtOxs")
+client.run(token)
